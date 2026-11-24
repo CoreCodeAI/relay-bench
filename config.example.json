@@ -1,0 +1,26 @@
+{
+  "model": "claude-opus-5-5",
+  "budget_usd_per_site": 15,
+  "settle_seconds": 8,
+  "balance_path": "/v1/dashboard/billing/usage",
+  "balance_divisor": 100,
+  "price_per_mtok": {
+    "input": 4.0,
+    "output": 20.0,
+    "cache_write_5m": 5.0,
+    "cache_write_1h": 8.0,
+    "cache_read": 0.20
+  },
+  "sites": [
+    {
+      "name": "relayA",
+      "base_url": "https://relay-a.example.com",
+      "api_key": "在这里填 A 站的 key"
+    },
+    {
+      "name": "relayB",
+      "base_url": "https://relay-b.example.com",
+      "api_key_env": "RELAY_B_KEY"
+    }
+  ]
+}
