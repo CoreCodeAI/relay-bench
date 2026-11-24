@@ -38,9 +38,9 @@ cd relay-bench
 cp config.example.json config.json      # 1. 复制配置
 # 2. 编辑 config.json，填入站点地址和 key（见第四节）
 python3 relay_bench.py probe            # 3. 先跑基础探测（几乎不花钱），确认连通
-python3 relay_bench.py check -y         # 4'. 推荐：掺水体检，每站约 $3 官方价，出一张红黄绿结论表
-python3 relay_bench.py all              # 4. 常规全套，每站约 $1.6 官方价
-python3 relay_bench.py all --heavy      # 5. 需要时再加长上下文三项，每站约 $9 官方价
+python3 relay_bench.py check -y         # 4. 推荐：掺水体检，每站约 $3 官方价，出一张红黄绿结论表
+python3 relay_bench.py all              # 5. 常规全套，每站约 $1.6 官方价
+python3 relay_bench.py all --heavy      # 6. 需要时再加长上下文三项，每站约 $9 官方价
 ```
 
 每项测试跑完，都会在终端打印一张对比表。全部结果保存在 `results/<时间戳>/`：
