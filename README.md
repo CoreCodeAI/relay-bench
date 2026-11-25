@@ -4,6 +4,8 @@
 
 一个 Python 文件，只用标准库，不用装任何依赖。可以同时测好几个站，跑完会出一张对比表。
 
+由 [CoreCode](https://corecode.live) 自研并开源。它对任何兼容 Anthropic Messages API 的中转都适用，包括 CoreCode 自己。不跑脚本、手动确认上游是不是 Anthropic 的方法见 [corecode.live/docs/verify](https://corecode.live/docs/verify/)。
+
 最省事的用法：
 
 ```bash
